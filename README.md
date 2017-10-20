@@ -50,12 +50,12 @@ object Example {
     mutableSig2() = tmpSig2 + 2
     
     /**
-     * Exeption Error: immutableSig3 is immutable varible
+     * Exeption Error: immutableSig3 is immutable variable
      */
     immutableSig3() = 2
    
     /** 
-     *  As the mutableSig1 and mutableSig2 have been changed. 
+     * As the mutableSig1 and mutableSig2 have been changed. 
      * The immutableSig3 will be re-evaluated.
      */
     println(immutableSig3())
