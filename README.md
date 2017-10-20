@@ -29,7 +29,7 @@ object Example {
     val immutableSig4 = Signal(5.5)
 
     /**
-     * Access value of mutable Signals
+     * Access value of Signals
      */
     println(mutableSig1())
     println(mutableSig2())
